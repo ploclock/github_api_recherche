@@ -1,0 +1,10 @@
+@use 'src/styles/vars';
+
+.not-found {
+  #text {
+    font-size: vars.$gutter * 5!important;
+  }
+  margin: vars.$gutter;
+  text-align: center;
+  font-weight: bold;
+}
